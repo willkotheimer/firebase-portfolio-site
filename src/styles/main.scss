@@ -1,0 +1,446 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+body {
+  /*background-color:#35354D;*/ 
+  // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Anonymous Pro', monospace; 
+  position: relative;
+  background-color: #282c34;
+  // background-color: #DEB887;
+  color: #6c6d71;
+}
+
+.description, .name {
+  font-size: 40px;
+  color: white;
+  padding: 10px 5px;
+} 
+.top-header {
+  background-color: black;
+  position: relative;
+  z-index:5;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ .sticky + section#bioPage {
+  padding-top: 65px;
+} 
+
+#logo {
+  background-color: black;
+  border: 1px solid orange;
+  width: 7.0em;
+  height: 2.6em;
+  padding: 0px 10px;
+  font-size: 28px;
+
+}
+.q {
+  color: #9493D5;
+}
+.a {
+color: #d1d1d1
+}
+.plus {
+  color: white;
+  margin-left: -4px;
+}
+.d {
+  color: #AB8968
+}
+.logo-pipe {
+  color: orange;
+  padding-left: 2px;
+  font-weight: bold;
+  font-size:45px;
+}
+.logo-initial {
+  color: #9493D5;
+}
+h1.title {
+  margin-left: 32px;
+  color: black;
+  font-size: 24px;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  color: white; 
+}
+.headerspecial {
+  width: 200px;
+  padding: 2px 5px;
+  border: 2px solid white;
+  font-size: 20px;
+  }
+
+  .headerspecial :nth-child(0) {
+    margin-top: 20px;
+  }
+
+nav {
+  display: flex;
+  position: absolute;
+  right: 1px;
+  bottom: -16px;
+}
+#navLinks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+ 
+}
+
+ul#navlinks {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+ul#navlinks li {
+  list-style-type: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  height: 50px;
+  width: 145px;
+  text-align:center;
+  
+}
+
+#navLinks > li:nth-child(1) {
+background-color: #008000;
+}
+#navLinks > li:nth-child(2) {
+background-color:  #003300;
+}
+#navLinks > li:nth-child(3) {
+   background-color: #99ff99;
+  }
+#navLinks > li > a{
+color: orange;
+text-decoration: none;
+}
+#navLinks > li:hover{
+  color: white;
+  background-color: #3D3C99;
+  }
+
+  #techAnchor,#rolesAnchor {
+      height:45px;
+  }
+
+.fullPage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  width: 100%;
+  
+  
+}
+
+.half-page {
+  width: 50%;
+}
+#bioPage { 
+   color: white;
+  display:flex;
+  justify-content: space-between;
+  /* background: url('../images/nashville.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:10px;
+  width: 100%;
+  height: 300px; */
+}
+#bioPage header {
+  margin: 0px 5px;
+  font-size: 30px;
+}
+#bioPage div {
+  color: white;
+  font-size:13px;
+  height:200px;width:66%;font:16px/26px;
+
+}
+
+
+
+#technologiesPage {
+/*background-color:  #3D3C99;*/
+background-color: #00b300;
+/* background-color: #009900;
+background-color: #008000;
+background-color: #006600;
+background-color: #004d00;
+background-color: #003300;
+background-color: #001a00; */
+color: #d1d1d1;
+  font-size:20px;
+  padding: 10px;
+
+}
+
+nav {
+  margin-right: 10px;
+}
+nav li {
+    list-style-type:none;
+    display: inline;
+}
+
+#tech {
+  ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px;
+  li {
+    list-style-type:none;
+   .techImage {
+    img {
+      display: inline;
+      flex-direction: row;
+      padding-right: 30px;
+      width: 100px;
+      height: 100px;
+      margin: 50px;
+    }
+    }
+   }
+  }
+}
+
+#devjobs {
+  /*background-color:  #1F1E4D;*/
+  color: #d1d1d1;
+  padding: 10px;
+  margin: 10px 0px;
+
+  display: flex;
+  flex-wrap: row wrap;
+  
+}
+
+div#experience-logo img {
+  width: 150px;
+  height: auto;
+}
+
+#containerSurround {
+  display: flex;
+  flex-wrap: row wrap; 
+  font-size: 15px;
+}
+
+div#experience-logo {
+  border: 1px solid gold;
+  padding-top: 10px;
+}
+
+div#experience-description {
+  border: 1px solid gold;
+}
+
+#onin-description,#wku-description, #advance-description, #view360-description,
+#acxiom-description,#jackroe-description, #nss-description {
+  width: 100%;
+  background-color: rgb(0, 22, 40);
+  border: 1px solid orange;
+  color: white;
+  font-family: "Courier";
+}
+
+#projectsPage {
+  background-color: #000;
+  color: blue;
+  padding: 10px;
+  margin: 5px;
+ 
+  
+}
+.project {
+  border: 2px solid orange;
+  width: 352px;
+  height: auto;
+
+}
+
+.projectsContainer {
+  display:flex;
+  flex-flow: row wrap;
+  margin: 2% 5%;
+}
+.projectCard {
+  width: 100%;
+  margin: 2% 5%;
+}
+.technologiesUsed {
+  color: darkslategrey;
+}
+
+.githubUrl {
+  padding-bottom: 5px;
+  border-bottom: 1px solid darkslategrey;
+}
+footer {
+  background-color: #000;
+  color:white;
+  position: relative;
+  height:50px;
+  width: 100%;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  margin: 10px 0px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ 
+}
+
+.page-footer {
+  padding-bottom: 10px;
+}
+footer .contact-info {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+.linkedin, .github, .email {
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+img.project {
+  width: 98%;
+  height: auto;
+}
+
+#listings {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: row wrap;
+  height: 272px;
+}
+#nss, #view360, #jackroe, #advance, #onin, #acxiom, #wku {
+  
+  width: 88%;
+  margin: 1px;
+  padding: 2px;
+  border-radius: 8px;
+  background-color: rgb(0, 22, 40);
+  border: 1px solid orange;
+  color: white;
+  font-family: "Courier";
+}
+  
+#highlightArea {
+  width: 50%;
+}
+
+.infoArea {
+  padding: 4%;
+  margin-top: 5%;
+  height: 300px;
+  background-color: #94bcc4;
+  /* background-color: rgb(0, 22, 40); */
+  border: 1px solid orange;
+  color: #fff;
+  font-family: "Courier";
+}
+
+.subheading {
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+.screenshot {
+  border-bottom: 1px solid slategrey;
+  
+}
+
+.x-frame-inner video {
+  display: block !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  z-index: 0;
+  max-width:1024px;
+  height:auto;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+#video {
+    max-width:105%;
+}
+.bio {
+    background-color: black;
+    color: white;
+    opacity: 90%;
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 38px;
+  }
+
+  .techImage img {
+    width: 55px;
+    height: auto;
+  }
+
+  .final-thought {
+    color: white;
+    background-color: #DEB887;
+    padding-top: 10px;
+    margin-top: 70px;
+    padding-left: 88px;
+  }
+
+  
+.statement {
+  color: white;
+  background-color: #DC143C;
+  padding-top: 10px;
+  margin-top: 70px;
+  padding-left: 88px;
+}
+
+
+.headertop {
+  
+  position: absolute;
+  left:70;
+  top: 50;
+  background-color: rgba(0,0,0,0.75);
+}
+
+.screenshot img {
+  max-width: 90%;
+}
