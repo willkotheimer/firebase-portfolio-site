@@ -2,18 +2,22 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
+@font-face {
+  font-family: 'Greenscreen';
+  src: url('../fonts/Greenscr.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 body {
-  /*background-color:#35354D;*/ 
-  // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  //background-color: #000;
+  opacity: 90%;
   font-family: 'Anonymous Pro', monospace; 
   position: relative;
-  background-color: #282c34;
-  // background-color: #DEB887;
-  color: #6c6d71;
+
+  
 }
 
 .description, .name {
-  font-size: 40px;
+  font-size: 15px;
   color: white;
   padding: 10px 5px;
 } 
@@ -33,32 +37,49 @@ body {
 } 
 
 #logo {
-  background-color: black;
-  border: 1px solid orange;
-  width: 7.0em;
-  height: 2.6em;
-  padding: 0px 10px;
-  font-size: 28px;
+  font-family: 'Greenscreen';
+  color: #41FF00;
+}
+// #logo {
+//   background-color: black;
+//   border: 1px solid orange;
+//   width: 7.0em;
+//   height: 2.6em;
+//   padding: 0px 10px;
+//   font-size: 20px;
 
-}
-.q {
-  color: #9493D5;
-}
-.a {
-color: #d1d1d1
-}
-.plus {
-  color: white;
-  margin-left: -4px;
-}
-.d {
-  color: #AB8968
-}
-.logo-pipe {
-  color: orange;
-  padding-left: 2px;
-  font-weight: bold;
-  font-size:45px;
+// }
+// .q {
+//   color: #9493D5;
+// }
+// .a {
+// color: #d1d1d1
+// }
+// .plus {
+//   color: white;
+//   margin-left: -4px;
+// }
+// .d {
+//   color: #AB8968
+// }
+// .logo-pipe {
+//   color: orange;
+//   padding-left: 2px;
+//   font-weight: bold;
+//   font-size:10px;
+// }
+
+@media screen and (min-width: 660px) {
+  .logo-pipe {
+  font-size:30px;
+  }
+  .logo {
+    font-size: 28px !important;
+  }
+  
+  .linkedin, .github, .email {
+    font-size: 25px;
+  }
 }
 .logo-initial {
   color: #9493D5;
@@ -71,14 +92,14 @@ h1.title {
 
 header {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: row;
   color: white; 
 }
 .headerspecial {
   width: 200px;
   padding: 2px 5px;
   border: 2px solid white;
-  font-size: 20px;
+  font-size: 33px;
   }
 
   .headerspecial :nth-child(0) {
@@ -89,12 +110,12 @@ nav {
   display: flex;
   position: absolute;
   right: 1px;
-  bottom: -16px;
 }
 #navLinks {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
+  font-size: 20px;
  
 }
 
@@ -139,8 +160,7 @@ text-decoration: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   width: 100%;
-  
-  
+  background-color: #000000;
 }
 
 .half-page {
@@ -198,19 +218,21 @@ nav li {
 #tech {
   ul {
     display: flex;
-    flex-wrap: nowrap;
+    max-width: 90%;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 10px;
   li {
     list-style-type:none;
    .techImage {
     img {
-      display: inline;
+      display: flex;
       flex-direction: row;
       padding-right: 30px;
-      width: 100px;
-      height: 100px;
-      margin: 50px;
+      max-width: 15%;
+      height: auto;
+      margin: 2%;
+      padding: 10px;
     }
     }
    }
@@ -256,7 +278,12 @@ div#experience-description {
   color: white;
   font-family: "Courier";
 }
-
+.projects {
+  background-color: #000000;
+}
+.project-buttons {
+  margin-top: 5px;
+}
 #projectsPage {
   background-color: #000;
   color: blue;
@@ -269,17 +296,24 @@ div#experience-description {
   border: 2px solid orange;
   width: 352px;
   height: auto;
+  
 
 }
 
 .projectsContainer {
+  
   display:flex;
   flex-flow: row wrap;
   margin: 2% 5%;
 }
 .projectCard {
+  background-color: #383838;
+  color: #6c6d71;
   width: 100%;
   margin: 2% 5%;
+  .title {
+    font-size: 40px;
+  }
 }
 .technologiesUsed {
   color: darkslategrey;
@@ -317,9 +351,10 @@ footer .contact-info {
 
 
 .linkedin, .github, .email {
-  font-size: 25px;
+  font-size: 15px;
   padding-left: 10px;
   padding-right: 10px;
+  line-height: 52px;
 }
 
 
@@ -407,7 +442,7 @@ img.project {
     width: 100%;
     margin-top: 30px;
     width: 100%;
-    font-size: 38px;
+    font-size: 24px;
   }
 
   .techImage img {
@@ -423,22 +458,38 @@ img.project {
     padding-left: 88px;
   }
 
+.topline {
+  display: flex;
+  flex-direction: row;
   
+}
 .statement {
-  color: white;
-  background-color: #DC143C;
-  padding-top: 10px;
-  margin-top: 70px;
-  padding-left: 88px;
+  color: #ffffff;
+  margin: 137px 10px 10px 10px;
+  padding: 10px 5%;
+  background-color: #001B2E;
+  width: 100%;
+}
+
+@media screen and (min-width:660px) and (max-width:992px) {
+  .statement {
+    margin-top: 85px;
+  }
+}
+
+@media screen and (min-width:993px) {
+  .statement {
+  margin: 56px 10px 10px 10px;
+  }
+  .name, .description {
+    font-size: 20px;
+  }
 }
 
 
-.headertop {
-  
-  position: absolute;
-  left:70;
-  top: 50;
+.top-header {
   background-color: rgba(0,0,0,0.75);
+  border-bottom: 2px solid #41FF00;
 }
 
 .screenshot img {

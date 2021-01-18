@@ -1,14 +1,23 @@
 {
   "project0": {
+    "title": "Front End Capstone: Smooches Inc",
+    "githubUrl": "https://github.com/willkotheimer/Smooches-Inc",
+    "screenshot": "https://github.com/willkotheimer/Smooches-Inc/raw/main/src/styles/images/dashboard.png",
+    "description": "This was a project based on the idea of a task app for couples, concieved in the style of a give and take ecommerce app, and including reviews of tasks.",
+    "technologiesUsed": "React, Axios, Firebase, Webpack, Bootstrap, HTML5",
+    "available": true,
+    "url": "http://smooches-inc.netlify.app/"
+  },
+  "project1": {
     "title": "React Pinterest",
     "githubUrl": "https://github.com/willkotheimer/react-pinterest",
     "screenshot": "https://github.com/willkotheimer/react-pinterest/raw/main/boards.png",
-    "description": "This was a project where I was able to build skills in React.",
+    "description": "This was a project based loosely on Pinterest, that allowed me to build skills in React.",
     "technologiesUsed": "React, Axios, Firebase, Webpack, Bootstrap, HTML5",
     "available": true,
     "url": "https://upbeat-mahavira-a8e825.netlify.app/"
   },
-  "project1": {
+  "project2": {
     "title": "Star Destroyer",
     "githubUrl": "https://github.com/willkotheimer/star-destroyer-dashboard-star-destroyer-dashboard",
     "screenshot": "https://github.com/nss-evening-cohort-13/star-destroyer-dashboard-star-destroyer-dashboard/raw/development/Personnel%20Dashboard%20Screenshot.png",
@@ -17,7 +26,7 @@
     "available": true,
     "url": "https://star-destroyer-a0766.firebaseapp.com/"
   },
-  "project2": {
+  "project3": {
     "title": "Pan Am",
     "githubUrl": "https://github.com/willkotheimer/pan-am-airlines-dashboard-pan-am-airlines-dashboard/",
     "screenshot": "https://github.com/willkotheimer/pan-am-airlines-dashboard-pan-am-airlines-dashboard/blob/Development/images/frontPage.PNG?raw=true",
@@ -26,7 +35,7 @@
     "available": true,
     "url": "https://fir-pan-am.web.app/"
   },
-  "project3": {
+  "project4": {
     "title": "Shark Attack",
     "githubUrl": "https://github.com/willkotheimer/shark-attack",
     "screenshot": "https://github.com/willkotheimer/shark-attack/raw/main/src/styles/images/Screenshot.png",
@@ -35,7 +44,7 @@
     "available": true,
     "url": "https://sharkie.netlify.app/"
   },
-  "project4": {
+  "project5": {
     "title": "Extraordinary Corduroy",
     "githubUrl": "https://github.com/willkotheimer/pants-group-project-e13-mighty-megalodons-team-4",
     "screenshot": "images/extraOrdinary.png",
@@ -44,7 +53,7 @@
     "available": true,
     "url": "https://relaxed-archimedes-5176ef.netlify.app"
   },
-  "project5": {
+  "project6": {
     "title": "Bear Watcher",
     "githubUrl": "https://github.com/willkotheimer/bearwatcher",
     "screenshot": "images/bearWatcherScreenshot.PNG",
@@ -53,7 +62,7 @@
     "available": true,
     "url": "https://bearwatcherapp.netlify.app"
   },
-  "project6": {
+  "project7": {
     "title": "Tamagotchi",
     "githubUrl": "https://github.com/willkotheimer/tamagotchi",
     "screenshot": "images/Tamagotchi.PNG",

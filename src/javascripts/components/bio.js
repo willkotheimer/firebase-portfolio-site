@@ -1,21 +1,17 @@
 const info = () => {
-  const bioString = `I started off my journey in development, after spending several years
-pursuing video.
-
-Despite some setbacks, and some hard learned lessons, I've continued to pursue it, which has given
-me a grit and depth many others simply won't have. 
-
-I've worked as technical support/consumer advocate, in Quality Assurance, and seen several software development life cycles.
-
-What I've learned the most is to always treat people fairly: bosses, coworkers, and clients. People aren't there for you to be more comfortable,
-  to advance your career, or even to be your friend, but they are important and their stories are all important.
-
-The best people are interested in making the best product they possibly can with tools available, and in helping others.
-
-I decided to go to Nashville Software School because I wanted to explore some areas of development
-that I just hadn't gotten the opportunity to work with before, namely .Net and React. What I hope to
-get out of this is the chance to be make an impact on a product and team, either in Software development
-or Quality Assurance Engineering.`;
+  const bioString = `In college I studied Computer Science, and took classes in Data Structures, 
+  Object Oriented Programming and Digital Advertising. After I graduated I dove into the job market. 
+  After spending some years in roles from PHP developer, Technical support, and Quality Assurance, 
+  I saw the programming landscape rapidly changing, and felt I needed to retool. 
+  
+  I decided to go to Nashville Software School because I wanted to explore frameworks programming in .Net and React,
+  and also learn the fundamentals of building software. Where my CS degree had moreso focused on algorithms and optimization,
+  NSS has focused on development skills in frameworks such as React and javascript, and the mindset of modularity and planning to completion.
+  
+  I am half way through the program, and just finished my front end capstone, Smooches Inc. 
+  I'm excited to be builing on my previous knowledge and adding backend .NET and C#, 
+  including Linq, APIs, and SQL Server.
+  `;
 
   return bioString;
 };
