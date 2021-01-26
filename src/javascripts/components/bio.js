@@ -1,23 +1,20 @@
-const info = () => {
-  const bioString = `In college I studied Computer Science, and took classes in Data Structures, 
-  Object Oriented Programming and Digital Advertising. After I graduated I dove into the job market. 
-  After spending some years in roles from PHP developer, Technical support, and Quality Assurance, 
-  I saw the programming landscape rapidly changing, and felt I needed to retool. 
-  
-  I decided to go to Nashville Software School because I wanted to explore frameworks programming in .Net and React,
-  and also learn the fundamentals of building software. Where my CS degree had moreso focused on algorithms and optimization,
-  NSS has focused on development skills in frameworks such as React and javascript, and the mindset of modularity and planning to completion.
-  
-  I am half way through the program, and just finished my front end capstone, Smooches Inc. 
-  I'm excited to be builing on my previous knowledge and adding backend .NET and C#, 
-  including Linq, APIs, and SQL Server.
+const personal = () => `My name is Will. I have a beautiful wife named Rachel, and we live in
+  Franklin, Tennessee with our son Max, who was born with a heart condition called hlhs.
+  I enjoy traveling, going to concerts, and football. I like Marvel and Stranger Things.
+  Also would love to travel the world on Cruise ships.`;
+const professional = () => `I'm currently a Quality Assurance Analyst and half-way through the full stack web development program at Nashville Software School, 
+and just finished my front end capstone, Smooches Inc. (a shared task app for couples). I'm excited to be building on my previous knowledge and adding to my backend knowledge of .NET and C#, 
+  including Linq, Entity Framework, and SQL Server.
+
+  I recently discovered that I really enjoy APIs, making css animations, and would one day love to
+  to teach my son programming. 
   `;
 
-  return bioString;
-};
-
 const printBio = () => {
-  document.querySelector('.statement').append(info());
+  const statement1 = document.querySelector('.personal');
+  statement1.append(personal());
+  const statement2 = document.querySelector('.professional');
+  statement2.append(professional());
 };
 
 export default { printBio };

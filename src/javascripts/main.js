@@ -9,6 +9,7 @@ const init = () => {
   firebase.initializeApp(apiKeys.firebaseKeys);
   bio.printBio();
   projects.projectsView();
+  projects.buttonEvents();
 
   // projectsPublish.printButtons();
   // projectsPublish.createProjectCards(projects.getProjects());

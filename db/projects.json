@@ -6,7 +6,10 @@
     "description": "This was a project based on the idea of a task app for couples, concieved in the style of a give and take ecommerce app, and including reviews of tasks.",
     "technologiesUsed": "React, Axios, Firebase, Webpack, Bootstrap, HTML5",
     "available": true,
-    "url": "http://smooches-inc.netlify.app/"
+    "react": true,
+    "javascript": true,
+    "url": "http://smooches-inc.netlify.app/",
+    "details": "This project was conceived as a joke when my wife and I were dating. When we did something nice, sometimes the other would playfully respond andsay 'Thank your smooches inc order. We hope your smooches inc represenative made a good impression.' To which we would then write, 'Of course, 5 stars!' When it came time to make my NSS capstone, at first., I couldn't think of anything, then this 'app' came to mind. This was a very fun app to do, my favorite parts being connecting the two users and using React Rebase to make the app auto-bind changes so anyone logged in would receive them."
   },
   "project1": {
     "title": "React Pinterest",
@@ -15,7 +18,10 @@
     "description": "This was a project based loosely on Pinterest, that allowed me to build skills in React.",
     "technologiesUsed": "React, Axios, Firebase, Webpack, Bootstrap, HTML5",
     "available": true,
-    "url": "https://upbeat-mahavira-a8e825.netlify.app/"
+    "react": true,
+    "javascript": true,
+    "url": "https://upbeat-mahavira-a8e825.netlify.app/",
+    "details": "This is an app that we made first were tasked to make in plain javascript, then built out in React. As such, there was a lot of planning and some of the app that we had already completed. For instance, the axios apis that did all of the CRUD functionality were already done and simply needed to be hooked up to React. For me, this was a great project to learn the ins and outs of React and React Router."
   },
   "project2": {
     "title": "Star Destroyer",
@@ -24,7 +30,9 @@
     "description": "This was a project where we worked as a team to develop create, read, update and delete on 5 different pages. ",
     "technologiesUsed": "Javascript ES6, Axios, Firebase, Webpack, Bootstrap, HTML5",
     "available": true,
-    "url": "https://star-destroyer-a0766.firebaseapp.com/"
+    "javascript": true,
+    "url": "https://star-destroyer-a0766.firebaseapp.com/",
+    "details": "This is an app we made as a group project called Nutshell. We were given the specs for the app, which was a website having different space characters and spaceships, and it also required to be able to edit and delete if the user was logged in.One of my favorite parts of the app was making the photos look like spaceship portals, which I did via clipping paths."
   },
   "project3": {
     "title": "Pan Am",
@@ -33,7 +41,9 @@
     "description": "This was a group project in which I worked directly on the front page and flight table.",
     "technologiesUsed": "Javascript ES6, Axios, Firebase, Webpack, Bootstrap, HTML5",
     "available": true,
-    "url": "https://fir-pan-am.web.app/"
+    "javascript": true,
+    "url": "https://fir-pan-am.web.app/",
+    "details": "This was the second part of nutshell, which was a group assignment that required us to work in another group's codebase. One of the best parts of this app was learning how to get the app working, since we weren't given a working database, and had to start from scratch. I did the front page UI and made use of Promises to make sure the data would be available to update on the webpage when a flight row was clicked. It was a fun group project."
   },
   "project4": {
     "title": "Shark Attack",
@@ -42,7 +52,10 @@
     "description": "This employed react state to randomly make a fictitious shark attack on unsuspecting students.",
     "technologiesUsed": "React, Axios, Bootstrap, HTML5",
     "available": true,
-    "url": "https://sharkie.netlify.app/"
+    "react": true,
+    "javascript": true,
+    "url": "https://sharkie.netlify.app/",
+    "details": "This was one of the first react apps I made. It deleted students off the board randomly and made gravestones for them. If anything, it was just a fun intro to using React."
   },
   "project5": {
     "title": "Extraordinary Corduroy",
@@ -51,7 +64,9 @@
     "description": "This was a group project in which I worked directly on the reviews page.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
-    "url": "https://relaxed-archimedes-5176ef.netlify.app"
+    "javascript": true,
+    "url": "https://relaxed-archimedes-5176ef.netlify.app",
+    "details": "My contribution to this assignment was a ratings page which allowed the user to submit a rating, and choose a fun avatar for that rating to be represented by. Since we had a cowboy theme, I chose cowboys and cowgirls from old Westerns."
   },
   "project6": {
     "title": "Bear Watcher",
@@ -60,7 +75,9 @@
     "description": "This app captured the scores of bears catching fish. It enabled me to be able to use functional programming and dom manipulation.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
-    "url": "https://bearwatcherapp.netlify.app"
+    "javascript": true,
+    "url": "https://bearwatcherapp.netlify.app",
+    "details": "This app enabled me to practice functional programming and dom manipulation. Because of the gameified subject matter that basically created a leaderboard for bears, I felt it needed a gamer interface, so I was able to style it in such a way that I thought looks like something similar to an arcade game."
   },
   "project7": {
     "title": "Tamagotchi",
@@ -69,6 +86,8 @@
     "description": "This project allowed me to recreate a classic 1990s toy with javascript, and manipulate data with functional programming, displaying it with a progress bar in css.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
-    "url": "https://ecstatic-einstein-3ebafb.netlify.app"
+    "csharp": true,
+    "url": "https://ecstatic-einstein-3ebafb.netlify.app",
+    "details": "I actually never had a tamagochi growing up, but my wife did. It was supposed to be a cute animal, but I thought it would be cuter to use our son as the model."
   }
 }

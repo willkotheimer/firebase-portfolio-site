@@ -31,6 +31,7 @@
     "webpack-dev-server": "3.11.0"
   },
   "dependencies": {
+    "@cloudfour/transition-hidden-element": "^2.0.2",
     "@fortawesome/fontawesome-free": "5.14.0",
     "axios": "0.20.0",
     "bootstrap": "4.5.2",

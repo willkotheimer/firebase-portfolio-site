@@ -7,4 +7,5 @@ const getProjects = () => new Promise((resolve, reject) => {
     resolve(response);
   }).catch((error) => reject(error));
 });
+
 export default { getProjects };
