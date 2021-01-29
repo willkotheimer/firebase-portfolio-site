@@ -41,34 +41,7 @@ body {
   font-family: 'Greenscreen';
   color: #41FF00;
 }
-// #logo {
-//   background-color: black;
-//   border: 1px solid orange;
-//   width: 7.0em;
-//   height: 2.6em;
-//   padding: 0px 10px;
-//   font-size: 20px;
 
-// }
-// .q {
-//   color: #9493D5;
-// }
-// .a {
-// color: #d1d1d1
-// }
-// .plus {
-//   color: white;
-//   margin-left: -4px;
-// }
-// .d {
-//   color: #AB8968
-// }
-// .logo-pipe {
-//   color: orange;
-//   padding-left: 2px;
-//   font-weight: bold;
-//   font-size:10px;
-// }
 
 @media screen and (min-width: 660px) {
   .logo-pipe {
@@ -96,11 +69,28 @@ header {
   flex-wrap: row;
   color: white; 
 }
+.titles {
+  display: flex;
+  flex-wrap: row wrap;
+}
 .headerspecial {
-  width: 200px;
-  padding: 2px 5px;
-  border: 2px solid white;
-  font-size: 33px;
+  text-align: center;
+  font-size: 1.5em;
+  line-height:-1px;
+  padding: 1em;
+  border: 1px solid #fff;
+  }
+  .headerspecial2 {
+    text-align: center;
+    font-size: 5em;
+    color: white; 
+  }
+  .headerspecial3 {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    padding: 1em;
+    border: 1px solid #fff; 
   }
 
 nav {
@@ -265,8 +255,7 @@ div#experience-description {
 }
 .projects {
   background-color: #000000;
-  
-  
+  margin-top: -10px;
 }
 .project-buttons {
   margin-top: 5px;
@@ -298,7 +287,7 @@ div#experience-description {
   z-index: 2;
   background-color: #383838;
   color: #6c6d71;
-  /*width: 27%;*/
+  text-align: center;
   height: $projectsHeight !important;
   width: 50%;
   margin-bottom: 5%;
@@ -336,14 +325,15 @@ div#experience-description {
   position: absolute;
   left: 55;
   top: 0;
-  background-color: blue;
+  background: linear-gradient(90deg,#017a9b,#018377);
   border: 1px solid #fff;
   color: #fff;
-  padding: 10%;
+  padding: 5%;
   padding-top: 2%;
   /*width: 27%;*/
   width: 50%;
   
+
   .title {
     font-size: 35px;
     text-align:center;
@@ -391,14 +381,20 @@ div#experience-description {
 
 .technologiesUsed {
   color: darkslategrey;
+  background: linear-gradient(90deg,#017a9b,#018377);
+  margin-top:-22px;
+  padding-bottom: 17em;
 }
 
+#projectAnchor {
+  margin-top: 12px;
+}
 .githubUrl {
   padding-bottom: 5px;
   border-bottom: 1px solid darkslategrey;
 }
 footer {
-  background-color: #000;
+  background: #1b1919;
   color:white;
   position: relative;
   height:50px;
@@ -406,7 +402,7 @@ footer {
   display: flex;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
-  margin: 10px 0px;
+  height: 5em;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -504,7 +500,7 @@ img.project {
     max-width:105%;
 }
 .bio {
-    background-color: black;
+  background: linear-gradient(90deg,#017a9b,rgb(0, 22, 40));
     color: white;
     margin-top: 56px;
     width: 100%;
@@ -514,9 +510,10 @@ img.project {
 
   .statement {
     color: #ffffff;
-    margin: 137px 10px 10px 10px;
+    margin: 10px;
     padding: 10px 2%;
-    background-color: #001B2E;
+    // background-color: #001B2E;
+    //background: linear-gradient(90deg,#017a9b,#018377);
     width: 100%;
     .personal, .professional {
       padding: 10px;
